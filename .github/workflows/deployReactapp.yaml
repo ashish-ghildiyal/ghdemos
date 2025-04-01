@@ -1,4 +1,4 @@
-name: Deploy dist
+name: Deploy react app
 on:
   push:
     branches:
@@ -65,5 +65,3 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Deploy
-        run: echo "Deploy successfully!"
