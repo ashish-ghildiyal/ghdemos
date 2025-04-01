@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - main
-    path_ignore:
-      - ".github/**"
+    path-ignore:
+      - ".github/workflows/**"
       - README.md
   workflow_dispatch:
 jobs:
