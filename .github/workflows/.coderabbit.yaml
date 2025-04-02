@@ -1,0 +1,10 @@
+language: "en-US"
+reviews:
+  profile: "ghdemos"
+  auto_review:
+    enabled: true
+    drafts: false
+    base_branches: ["coderabbit"]
+path_instructions:
+  - path: "src/**"
+    instructions: "Focus on coderabbit."
